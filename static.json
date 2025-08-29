@@ -1,0 +1,8 @@
+{
+  "headers": {
+    "/**": {
+      "X-Frame-Options": "ALLOWALL",
+      "Content-Security-Policy": "frame-ancestors 'self' *.bitrix24.com *.bitrix24.in *.bitrix24.site"
+    }
+  }
+}
