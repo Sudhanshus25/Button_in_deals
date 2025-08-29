@@ -22,7 +22,7 @@
   "variables": [
     {
       "name": "APP_URL",
-      "value": "https://cdn.bitrix24.in/b27531061/app_local/7955722ea997d7c09f2ec59010f423c9/index.html",
+      "value": "https://sudhanshus25.github.io/Button_in_deals/index.html",
       "type": "STRING",
       "required": true
     }
