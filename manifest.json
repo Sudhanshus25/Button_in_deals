@@ -22,7 +22,7 @@
   "variables": [
     {
       "name": "APP_URL",
-      "value": "https://sudhanshus25.github.io/Button_in_deals/index.html",
+      "value": "https://button-in-deals.onrender.com",
       "type": "STRING",
       "required": true
     }
