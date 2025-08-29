@@ -1,12 +1,11 @@
 {
   "code": "deal_toolbar_button_app",
-  "type": "S",
   "name": "CRM Deal Toolbar Button",
   "description": "Adds a custom button to the CRM deal detail toolbar",
   "placement": [
     {
       "placement": "CRM_DEAL_DETAIL_TOOLBAR",
-      "handler": "https://button-in-deals.onrender.com/index.html",
+      "handler": "https://button-in-deals.onrender.com/index.php",
       "options": {
         "title": "My Custom Action",
         "description": "Perform a custom action on this deal"
@@ -17,9 +16,6 @@
   "scope": [
     "crm"
   ],
-  "rights": {
-    "crm": "X"
-  },
   "variables": [
     {
       "name": "APP_URL",
