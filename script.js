@@ -12,14 +12,8 @@ document.addEventListener('DOMContentLoaded', function() {
             DOMAIN: 'instloo.bitrix24.com',
             PROTOCOL: '1',
             LANG: 'en',
-            APP_SID: 'demo_app_sid',
-            AUTH_ID: 'demo_auth_id',
-            AUTH_EXPIRES: '3600',
-            REFRESH_ID: 'demo_refresh_id',
-            member_id: 'demo_member_id',
-            status: 'L',
-            PLACEMENT: 'CRM_DEAL_DETAIL_TOOLBAR',
-            PLACEMENT_OPTIONS: '{"ID":"6591"}'
+            member_id: '7d0341d4bed8daaee39ff8d17568bcbc',
+            PLACEMENT: 'CRM_DEAL_DETAIL_TOOLBAR'
         };
         handlePlacementData(simulatedData);
 

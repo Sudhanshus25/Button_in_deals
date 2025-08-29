@@ -6,6 +6,7 @@
   "placement": [
     {
       "placement": "CRM_DEAL_DETAIL_TOOLBAR",
+      "handler": "https://button-in-deals.onrender.com/index.html",
       "options": {
         "title": "My Custom Action",
         "description": "Perform a custom action on this deal"
