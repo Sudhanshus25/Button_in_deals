@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Deal Toolbar Button App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api.bitrix24.com/api/v1/"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CRM Deal Toolbar Button App</h1>
+        </header>
+        
+        <main>
+            <div id="app-content" class="app-content">
+                <div class="instructions">
+                    <h2>How to Install and Use</h2>
+                    <ol>
+                        <li>Create a new application in your Bitrix24 portal</li>
+                        <li>Add this URL as a placement handler</li>
+                        <li>Select the placement type: <code>CRM_DEAL_DETAIL_TOOLBAR</code></li>
+                        <li>Configure the necessary permissions (CRM access)</li>
+                        <li>Install the application in your Bitrix24</li>
+                    </ol>
+                    
+                    <div class="demo">
+                        <h3>Demo Button Preview</h3>
+                        <button class="demo-button" onclick="alert('This is what your button will look like!')">
+                            <span class="button-icon">📋</span>
+                            My Custom Action
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="placement-handler" class="placement-handler" style="display: none;">
+                <h3>Processing Deal Information</h3>
+                <p>Deal ID: <span id="deal-id">Loading...</span></p>
+                <div class="actions">
+                    <button id="fetch-deal-info" class="action-button">Get Deal Info</button>
+                    <button id="perform-action" class="action-button">Perform Custom Action</button>
+                </div>
+                <div id="deal-info" class="deal-info"></div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>This is a simple app that adds a button to the CRM deal detail toolbar in Bitrix24.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "code": "deal_toolbar_button_app",
+  "type": "S",
+  "name": "CRM Deal Toolbar Button",
+  "description": "Adds a custom button to the CRM deal detail toolbar",
+  "placement": [
+    {
+      "placement": "CRM_DEAL_DETAIL_TOOLBAR",
+      "options": {
+        "title": "My Custom Action",
+        "description": "Perform a custom action on this deal"
+      }
+    }
+  ],
+  "version": "1.0.0",
+  "scope": [
+    "crm"
+  ],
+  "rights": {
+    "crm": "X"
+  },
+  "variables": [
+    {
+      "name": "APP_URL",
+      "value": "https://cdn.bitrix24.in/b27531061/app_local/7955722ea997d7c09f2ec59010f423c9/index.html",
+      "type": "STRING",
+      "required": true
+    }
+  ]
+}
