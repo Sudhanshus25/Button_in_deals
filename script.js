@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Simulated placement data (for testing outside Bitrix24)
         const simulatedData = {
-            DOMAIN: 'example.bitrix24.com',
+            DOMAIN: 'instloo.bitrix24.com',
             PROTOCOL: '1',
             LANG: 'en',
             APP_SID: 'demo_app_sid',
